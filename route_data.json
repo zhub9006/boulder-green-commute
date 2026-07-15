@@ -1,0 +1,120 @@
+{
+  "metadata": {
+    "route_name": "45 Oak Avenue to 1800 Broadway, Boulder, CO",
+    "date_analyzed": "2025-07-15",
+    "data_source": "OpenStreetMap",
+    "total_distance_m": 4026.5,
+    "total_distance_km": 4.03,
+    "elevation_gain_m": 15
+  },
+  "modes": {
+    "walking": {
+      "speed_kmh": 5,
+      "duration_minutes": 48,
+      "calories": 200,
+      "steps": 5300,
+      "co2_kg": 0,
+      "cost": 0,
+      "infrastructure_score": 3
+    },
+    "biking": {
+      "speed_kmh": 15,
+      "duration_minutes": 16,
+      "calories": 80,
+      "steps": 2100,
+      "co2_kg": 0,
+      "cost": 0,
+      "infrastructure_score": 4
+    }
+  },
+  "segments": [
+    {
+      "name": "Oak Avenue",
+      "distance_m": 96.6,
+      "distance_km": 0.097,
+      "walking_duration_sec": 45,
+      "biking_duration_sec": 7,
+      "road_type": "residential",
+      "bike_infrastructure": "bike_lane",
+      "safety_rating": 3
+    },
+    {
+      "name": "19th Street",
+      "distance_m": 2156.5,
+      "distance_km": 2.156,
+      "walking_duration_sec": 1530,
+      "biking_duration_sec": 85,
+      "road_type": "arterial",
+      "bike_infrastructure": "bike_route_signs",
+      "safety_rating": 2,
+      "transit_lines": ["RTD 1", "RTD 3", "RTD 7", "RTD 10"]
+    },
+    {
+      "name": "20th Street",
+      "distance_m": 671.7,
+      "distance_km": 0.672,
+      "walking_duration_sec": 480,
+      "biking_duration_sec": 26,
+      "road_type": "residential",
+      "bike_infrastructure": "none",
+      "safety_rating": 4
+    },
+    {
+      "name": "Pearl Street",
+      "distance_m": 216.2,
+      "distance_km": 0.216,
+      "walking_duration_sec": 156,
+      "biking_duration_sec": 9,
+      "road_type": "pedestrian_mall",
+      "bike_infrastructure": "dismount_required",
+      "safety_rating": 1
+    },
+    {
+      "name": "18th Street",
+      "distance_m": 248.8,
+      "distance_km": 0.249,
+      "walking_duration_sec": 180,
+      "biking_duration_sec": 10,
+      "road_type": "residential",
+      "bike_infrastructure": "none",
+      "safety_rating": 4
+    },
+    {
+      "name": "Canyon Boulevard",
+      "distance_m": 636.6,
+      "distance_km": 0.637,
+      "walking_duration_sec": 456,
+      "biking_duration_sec": 25,
+      "road_type": "bike_facility_separated",
+      "bike_infrastructure": "separated_bike_lane",
+      "safety_rating": 5
+    }
+  ],
+  "waypoints": {
+    "origin": {
+      "address": "45 Oak Avenue, Boulder, Boulder County, Colorado, 80304",
+      "latitude": 40.0448805,
+      "longitude": -105.2738879
+    },
+    "destination": {
+      "address": "1800 Broadway, Boulder, Boulder County, Colorado, 80302",
+      "latitude": 40.0163281,
+      "longitude": -105.2789726
+    }
+  },
+  "geojson": {
+    "type": "Feature",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [-105.273888, 40.04488],
+        [-105.278866, 40.016016]
+      ]
+    },
+    "properties": {
+      "mode": "walking",
+      "distance_km": 4.03,
+      "duration_minutes": 48
+    }
+  }
+}
